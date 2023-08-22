@@ -1,0 +1,45 @@
+.cabecera,
+.menu,
+.cuerpo,
+.pie{
+    width: 100%;
+    background-color: red;
+    margin: 10px 0;
+}
+.cabecera,
+.pie{
+    height: 100px;
+}
+.menu{
+    height: 80px;
+}
+.cuerpo{
+    height: 400px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.cuerpo .lateral,
+.cuerpo .centro{
+    height: 100%;
+    background-color: red;
+
+}
+.cuerpo .lateral{
+    width: 25%;
+}
+.cuerpo .centro{
+    width: 73%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.centro .bloque{
+    width: 70%;
+    height: 60%;
+    background-color:  #CD5C5C;
+    border: 2px solid transparent;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,105 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.fila1{
+    display: flex;
+    flex-direction: row;/*row es fila*/
+    background-color: grey;
+    padding:  10px;/*para separar los elemtos de la fila. Espaciado a todo los lados*/
+}
+.fila1 .caja1{
+    background-color: white;
+    width: 10%;
+    height: 50px;
+    margin-right: 10px;
+
+}
+.fila1 .caja2{
+    background-color: white;
+    width: 80%;
+    height: 50px;
+    margin-right: 10px;/*para que se separen a la derecha*/
+
+}
+.fila1 .caja3{
+    background-color: white;
+    width: 10%;
+    height: 50px;
+
+}
+.fila2{
+    display: flex;
+    flex-direction: column;/*row es fila*/
+}  
+.fila2 .caja1{
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: space-between;/*para separar y que ocupen todo el ancho*/
+}
+.caja1 div{/*se escribe asi para tomar todos los subniveles de caja 1 y no estar escribiendo cada uno para darle la propiedad*/
+    width: 10%;
+    height: 50px;
+    background-color: #EFF0F1;
+}
+.caja1 .c1{
+    background-color: #74F5EB;
+}
+
+.caja2{
+    display: flex;
+    flex-direction: row;
+}
+
+.caja2 .columna1{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 50px;
+    
+}
+.caja2 .columna1 .bloque1{
+    width: 100%;
+    height: 600px;
+    background-color: #EFF0F1;
+    
+
+}
+.caja2 .columna1 .bloque2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.caja2 .columna1 .bloque2 div{
+    width: 24%;
+    height: 50px;
+    background-color: #74F5EB;
+
+}
+.caja2 .columna1 .bloque3 div{
+    background-color: #F9F4F9;
+    height: 10px;
+    width: 100%;
+    margin-top: 50px;
+}
+.caja2 .columna2{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+.caja2 .columna2 .cuadros{
+    background-color: #F9F4F9;
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+}
+.caja2 .columna2 .linea{
+    background-color: #F9F4F9;
+    height: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
