@@ -1,0 +1,225 @@
+/*codigo de menu*/
+
+body{
+  margin: 5px 0px 0px 0px;
+}
+
+.cabecera{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+ 
+.logo img{
+    width: 150px;
+    margin: 0px 0px 0px 25px;/*para separar el logo de la izquina*/
+}
+.menu ul{
+    list-style: none;/* para eliminar los puntos de viñetas*/
+
+}
+.menu ul li{
+    float: right;
+    margin: 0px 10px;
+}
+.menu ul li a{ 
+    text-decoration: none;/*para quitarles el subrayado y cambiar el color*/
+    font-size: 30px;/* para cambiar el tamaño de la letra*/
+    color: #003057;
+    font-weight: 900;/*para negrilla*/
+
+}
+/* sesión banner*/
+.banner-principal{
+   width: 100%;
+   height: 500px;
+   background-color: #0033A0;
+   
+
+}
+
+.img-sura{
+   width: inherit;
+   height: 500px;
+}
+
+.banner-principal div{
+    width: 500px;
+    height: 200px;
+    color: black;
+    font-size: 40px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -350px;
+    background-color: transparent;
+    margin: auto;
+       
+}
+
+.banner-principal div h1{
+    margin: 0;
+    font-size: 50px;/*tamaño de la letra*/
+    text-align: center;
+}
+.banner-principal div p,
+.banner-principal div a{
+    font-size: 20px;
+    text-align:center;
+    
+}
+
+.banner-principal div p{
+    margin: 5px 0px 2px 0px;
+}
+
+   
+
+.banner-principal div a{
+    text-decoration: none;
+    background-color: #0033A0;
+    color: white;
+    padding: 10px 15px ;
+    border-radius: 15px;
+    width: 130px;
+    padding: 5px 0px;
+}
+
+.img-banner{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    position: relative;
+    top: -100px;
+}
+
+.img-1, .img-2, .img-3, .img-fila{
+    width: 250px;
+    height: 200px;
+}
+
+.img-1, .img-2, .img-3, .img-fila, .img-card1, .img-card2,
+.slider-item{
+    border: 1px solid black;
+    border-radius: 5px;
+   
+}
+
+.img-2{
+   margin-left: 10px;
+   margin-right: 10px;
+}
+
+
+.maint-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.fila1, .fila2, .text-fila1, .text-fila2, 
+.content-1-aside, .content-2-aside, .content-4-aside,
+.slider-body, .footer{
+    display: flex;
+    justify-content: center;
+}
+
+.img-fila, .img-fila{
+    margin: 5px 10px;
+} 
+
+h1, .text-p{
+    text-align: center;
+    color: #0033A0;
+}
+
+.text-p{
+    width: 265px;
+}
+
+
+.card-1, .card-2{
+    width: 525px;
+    margin: 0px 10px;
+}
+
+.img-card1, .img-card2{
+    width: 525px;
+    height: 250px;
+}
+
+.content-1-aside{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.content-4-aside{
+    display: flex;
+}
+
+.card-1-content-4{
+    width: 1050px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.img-card-1-content-4{
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.img-card-1-content-4{
+    width: 200px;
+    margin-right: 20px;
+}
+
+.slider-container{
+    margin: 20px 0px;
+}
+
+.slider-item{
+    width: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer{
+    margin-top: 20px;
+    background-color: #A9FEFE ;
+    display: flex;
+    align-items: center;
+}
+
+.img-footer{
+    width: 50px;
+    margin: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+h3, .text-p{
+    
+    color: #0033A0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.row-1-footer{
+    display: flex;
+    flex-direction: row;
+}
