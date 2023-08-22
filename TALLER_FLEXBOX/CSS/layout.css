@@ -1,0 +1,93 @@
+/**{
+    font-size: 10vh;
+}
+.caja-1,
+.caja-2,
+.caja-3,
+.caja-4,
+.caja-5{
+    width: 100%;
+    height: 100vh;
+    display: inline-block
+}
+.caja-1{
+    background-color: cadetblue;
+    position: relative;
+}
+.caja-2{
+    background-color: burlywood;
+    position: sticky;
+    width: 20%;
+    height: 80vh;
+}
+.caja-3{
+    background-color: coral;
+    width: 60%;
+    height: 80vh;
+}
+.caja-4{
+    background-color: burlywood;
+    position: sticky;
+    width: 20%;
+    height: 80vh;
+}
+.caja-5{
+    background-color: cadetblue;
+}
+*/
+
+body{
+    background-color: #DFDDDD;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+ul, .textAside{
+    padding-left: 10px;
+
+}
+
+h1, .textFooter{
+    text-align: center;
+}
+
+.container{
+    height: 89vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.containerNav, .containerAside{
+   width: 20%;
+}
+
+.containerNav{
+   background-color: #B4B2B2;
+}
+
+.containerMain{
+    background-color: #959393;
+    width: 60%;
+}
+
+.containerAside{
+    background-color: #CAC7C7;
+}
+
+.header{
+    height: 8vh;
+}
+
+.footer{
+    height: 3vh;
+    margin-top: 0px;
+}

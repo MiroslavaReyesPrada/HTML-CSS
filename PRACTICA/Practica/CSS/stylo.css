@@ -1,0 +1,85 @@
+
+body{
+    font-family: 'Domine', serif;
+}
+
+h2{
+    font-weight: 400;
+
+}
+
+p{
+    font-weight: 300;
+}
+.container{
+
+    margin: 0 auto;
+    width: 80%;
+}
+
+.flex{
+    display: flex; /*para que se organicen en filas*/
+    flex-wrap: wrap;
+}
+
+/*alinear el texto*/
+.text-center{
+    text-align: center;
+}
+
+/* para dar la forma de la tarjeta el recuadro*/
+.columna{
+    background-color: #f2f2f2;
+    color: #333;
+    border: 1px solid #333;
+    margin: 10px;/*para separar ñas columnas*/
+    padding: 10px;/*para separar ñas columnas*/
+    border-radius: 15px;
+    box-shadow: 10px 10px 8px #999999;/*para la sombra*/
+    width: 20%;/*para que cuando se encoja se vea bien*/
+    box-sizing: border-box;
+    
+}
+.precio{
+    font-size: 50px;
+    color: #33cccc;
+}
+.btn-precio{
+    background-color: salmon;
+    display: block;/*para que se vea como un boton grande*/
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;/*para quitar la linea debajp de la palabra comprar o el subrayado*/
+    border-radius: 3px;
+    margin-bottom: 10px;/*para alejar el boton del margen del bloque*/
+
+}
+.btn-precio:hover{
+    background-color: #e65c00;
+}
+
+.btn-precio:active{
+    background-color: #e6b800;
+}
+
+@media (max-width: 1070px){
+    .columna{
+        width: 45%;
+        margin-bottom: 20px;
+
+    }
+        
+    
+}
+
+@media (max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+        
+    
+}
+
+

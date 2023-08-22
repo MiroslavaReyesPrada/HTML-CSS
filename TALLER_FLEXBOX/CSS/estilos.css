@@ -1,0 +1,29 @@
+body{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: lightgrey;
+}
+
+html, body{
+    height: 100vh;
+}
+
+
+.div_contenedor{
+     width: 800px; 
+     height: 400px;  
+     background-color: gray;
+     border-radius: 5px;
+     align-items: auto;
+}
+
+h1, p{
+    margin: 30px;
+}
+
+
+
+   
+

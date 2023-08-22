@@ -1,0 +1,68 @@
+
+body {
+    background-color: #93d9e9;
+    font-family: "Varela Round", sans-serif;
+    height: 100vh;
+}
+
+.card, .contaimerBtn, body{
+    display: flex;
+    justify-content: center;
+
+}
+
+.card{
+    flex-direction: row;
+    width: 700px;
+}
+
+.title{
+    background-color: salmon;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    height: 50px;
+    display: flex;
+    font-weight: 900;
+}
+
+.title span{
+    margin: auto;
+}
+
+.weekendPass{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dayPass, .weekendPass, .weekendPass2{
+    height: 480px;
+    min-height: 480px;
+    box-shadow: 5px 2px 2px black;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    margin: auto !important;
+}
+
+ul{
+    list-style: none;
+    padding: 10px;
+}
+
+ul li{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #DCD9D6;
+    text-align: center;
+}
+
+.btnBuy{
+    height: 40px;
+    text-align: center;
+    padding: 0px 20px;
+    border: 1px solid #DCD9D6;
+    border-radius: 5px;
+}
+
+.features{
+   height: 70%;
+}

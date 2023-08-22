@@ -1,0 +1,45 @@
+.padre{
+    display: flex;
+    flex-direction: row;/*para colocarlos uno al ldao del otro*/
+    flex-wrap: wrap;/*para que se respete el ancho de cada uno de los contenedores*/
+    text-align: center;
+    padding: 10px;
+
+}
+.header, .articulo, .izquierda, .derecha, .footer{
+    flex-grow: 1;/*para que abarque el 100%*/
+    flex-basis: 100%;/*inidica tamaño original que va a tener el contenedor hijo*/
+    padding: 10px;
+}
+@media all and (min-width: 600px){
+    .aside{ flex: 1 1 auto; }
+        
+   
+   
+}
+@media all and (min-width: 800px){
+    .articulo{flex: 2 0 ;}
+    .izquierda{order: 1:}
+    .articulo{order: 2;}
+    .derecha{order: 3;}
+    .footer{order: 4;}
+        
+    
+}  
+
+.header{
+    background-color: #003399;
+
+}
+.articulo{
+    background-color: #00994d;
+}
+.izquierda{
+    background-color: #009999;
+}
+.derecha{
+    background-color: 	#990099;
+}
+.footer{
+    background-color: black;
+}
